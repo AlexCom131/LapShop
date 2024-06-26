@@ -1,0 +1,183 @@
+html, body{
+    margin: 0;
+    padding: 0;
+
+    font-family: "Inter";
+
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  div{
+    text-decoration: none;
+  }
+
+  header{
+    background: rgba(17, 17, 17, 1);
+    border-bottom: 1px solid rgba(35, 35, 35, 1);
+    z-index: 5000;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 3px 10px 0.5px rgba(0, 0, 0, 0.5);
+
+    z-index: 5;
+
+}
+
+.header-name{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.headerScale{
+  transition: transform 0.3s;
+}
+
+.headerScale:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+
+  .header-menu{
+    color: rgb(163, 160, 160);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: center;
+  }
+
+  .userInter{
+    padding-right: 24px;
+  }
+
+  .userInter div{
+    padding: 0;
+  }
+
+.language{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+
+  margin-right: 0;
+  justify-content: end;
+}
+
+.language div{
+  padding: 0;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  position: relative;
+}
+
+input {
+  width: 250px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #324b4e;
+  background: #ffffff;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+
+input:focus {
+  width: 80%;
+}
+
+/* button {
+  height: 26px;
+  width: 26px;
+  margin-top: 7px;
+  background: #F15B42;
+  cursor: pointer;
+}
+
+button:before {
+  content: "\f105";
+  font-family: FontAwesome;
+  color: #bb8d19;
+  font-size: 20px;
+  font-weight: bold;
+} */
+
+.backdropBlur{
+  backdrop-filter: blur(100px);
+}
+
+.topp{
+
+}
+
+.secondHeader{
+  display: flex;
+  justify-content: center;
+  width: 1000vh;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  gap: 40px;
+  position: fixed;
+
+  text-shadow:1px 1px 2px rgba(0, 0, 0, 0.2);
+
+  z-index: 1000;
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+  z-index: 4;
+}
+
+.secondHeaderIteam {
+  padding: 10px 20px; 
+  cursor: pointer; 
+  position: relative;
+  white-space: nowrap;
+
+  color: black;
+
+}
+
+.secondHeaderIteam::after {
+  content: ''; 
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  top: 40px;
+  height: 2px; 
+  background-color: #000000;
+  visibility: hidden;
+  transform: scaleX(0); 
+  transition: transform 0.3s ease, visibility 0.3s; 
+}
+
+.secondHeaderIteam:hover::after {
+  visibility: visible; 
+  transform: scaleX(1); 
+}
+
+.action{
+  margin-top: 55px;
+}
+
+main{
+  min-height: 100vh;
+}
+
+
+footer{
+  background: rgba(17, 17, 17, 1);
+  color: rgb(255, 255, 255);
+  bottom: 10px;
+
+
+}

@@ -1,0 +1,57 @@
+.title{
+    font-size: 29px;
+    font-weight: 700;
+    color: #000000;
+
+    text-shadow:1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.box{
+    border-radius: 25px;
+    background-color: #fafafa;
+    transition: 0.7s ease;
+
+    height: 100%;
+}
+
+.box:hover{
+    background-color: #c4c4c4;
+    background-color: #dedede;
+    transition: 0.7s ease;
+    transform: scale(1.09);
+
+    box-shadow:1px 1px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.nameProduct{
+    font-size: 18px;
+    font-weight: 550;
+    line-height:120%;
+
+    /*white-space: nowrap;*/
+}
+  
+
+.priceProduct{
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+.buttonBuy{
+    width: 80px;
+    height: 60px;
+    border-radius: 15px;
+    transition: 0.3s ease;
+    border: 2px solid #ffffff;
+    background-color: #313131;
+
+
+}
+
+.buttonBuy:hover{
+    background-color: #000000;
+    transition: 0.3s ease;
+    border: 2px solid #fafafa;
+}

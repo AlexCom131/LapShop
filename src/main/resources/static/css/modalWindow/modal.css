@@ -1,0 +1,46 @@
+.inputWindow{
+    border-radius: 30px;
+    height: 40px;
+    border: rgba(228, 40, 40, 0.073);
+    border:solid 2px rgba(0, 0, 0, 0.203);
+    margin-top: 9px;
+}
+
+.registerButton{
+    border-radius: 30px;
+    height: 50px;
+    width: 160px;
+    background-color: rgb(10, 9, 9);
+    border-color: black;
+    border:solid 2px;
+
+    font-weight: 500;
+    color: #ffffff;
+
+    
+
+    transition: 0.5s ease;
+}
+
+.registerButton:hover{
+    transition: 0.5s ease;
+
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    transform: scale(1.01);
+
+    color: rgb(10, 9, 9);
+}
+
+label{
+    font-weight: 600;
+}
+
+.titleText{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.loginText{
+    color: black;
+}
